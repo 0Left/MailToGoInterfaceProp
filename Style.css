@@ -15,6 +15,7 @@ body {
     width: 100%;
 }
 .header-main-text {
+    color: #FFFFFF;
     text-align: center;
     margin: auto;
     font-size: 24px;
@@ -28,18 +29,24 @@ body {
     align-content: center;
     justify-content: center;
     flex-wrap: nowrap;
+    width: 100%;
+    flex-direction: column;
 }
 form>label {
+    /*
     display: flex;
     flex-direction: column;
     text-align: right;
     width: 100px;
+    */
+    display: inline-flex;
     line-height: 26px;
     margin-bottom: 10px;
 }
-  
+
 form>input {
-    height: 20px;
-    flex: 0 0 200px;
+    display: inline-flex;
+    /*flex: 0 0 200px;*/
+    height: 26px;
     margin-left: 10px;
 }
