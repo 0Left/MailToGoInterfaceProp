@@ -1,0 +1,45 @@
+/* General Infos*/
+h1,h2,h3,h4,h5,h6,body {
+    margin: 0;
+}
+body {
+    background-color: whitesmoke;
+}
+/* Header Infos*/
+.general-header {
+    text-align: center;
+    margin-top: 0;
+    overflow: hidden;
+    background-color: #FF4D00;
+    padding: 20px 10px;
+    width: 100%;
+}
+.header-main-text {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+}
+
+/* Forms Infos */
+
+.FormsVisualBox {
+    display: flex;
+    margin-top: 5px;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+form>label {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 100px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+  
+form>input {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+}
